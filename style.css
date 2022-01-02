@@ -585,3 +585,113 @@ footer .copyright{
 }
 
 
+/* SHOP PAGE */
+.page-header{
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/bg-shop.jpg');
+    background-repeat: contain;
+    height: 50vh;
+    width: 100%;
+    background-position: top -50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.page-header h2{
+    font-size: 40px;
+    color: #EBE645;
+    font-weight: 800;
+}
+
+.page-header p{
+    font-size: 40px;
+    color: #8E0505;
+    font-weight: 600;
+}
+
+/* Pagination -- SHOP PAGE*/
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 6px;
+    width: 10%;
+    font-weight: 600;
+}
+
+.pagination a i{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Product detail -- SHOP PAGE*/
+.product-detail{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: start;
+}
+
+.product-detail .single-pro-img{
+    width: 40%;
+    margin-right: 50px;
+
+}
+
+.product-detail .gallery-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-detail .gallery-img-col{
+    flex-basis: 23%;
+}
+
+.product-detail .single-product-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+.product-detail .single-product-details h4{
+    padding: 10px 0 20px 0;
+}
+
+.product-detail .single-product-details h2{
+    font-size: 26px;
+}
+
+.product-detail .single-product-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+
+.product-detail .single-product-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.product-detail .single-product-details input:focus{
+    outline: none;
+}
+
+.product-detail .single-product-details button{
+    background: #088178;
+    color: #fff;
+    cursor: pointer;
+}
+ 
+.product-detail .single-product-details span{
+    line-height: 25px;
+}
