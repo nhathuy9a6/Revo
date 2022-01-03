@@ -36,7 +36,7 @@ p{
 }
 
 .section-p1{
-    padding: 40px 80px;
+    padding: 40px 20px;
 }
 
 .section-m1{
@@ -134,6 +134,16 @@ body{
     font-size: 25px;
 }
 
+.header .navbar-menu{
+    display: no;
+    align-items: center;
+}
+
+.header .navbar-menu i{
+    font-size: 25px;
+
+}
+
 /* Hero -- HOME */
 .hero{
     background-image: url(images/bg-home-2.jpeg);
@@ -188,7 +198,7 @@ body{
 }
 
 .feature .feature-box{
-    width: 180px;
+    width: 170px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
