@@ -21,6 +21,19 @@
         padding: 20px 30px;
     }
 
+    .header .navbar-menu{
+        display: none;
+    }
+
+    .header .navbar #close{
+        display: none;
+    }
+
+    .page-header{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .feature{
         display: flex;
         align-items: center;
@@ -29,6 +42,16 @@
 
     .feature-product .pro {
         width: 48%;
+    }
+
+     .feature-product .pro .cart{
+        width: 60px;
+        height: 50px;
+        line-height: 50px   ;
+    }
+
+    .product-detail .single-pro-img{
+        width: 50%;
     }
 
     .feature-product .pro .desc span{
@@ -220,27 +243,8 @@
     .newletter .form input{
         width: 400px;
     }
-}
 
-/* SHOP PAGE*/
-/* Tablet*/
-@media (min-width: 740px) and (max-width: 1023px) {
-    .header .navbar-menu{
-        display: none;
-    }
-
-    .header .navbar #close{
-        display: none;
-    }
-
-    .page-header{
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-/* Mobile*/
-@media (max-width: 740px){
+    /* HOME PAGE*/
     .page-header{
         background-repeat: no-repeat;
         background-size: cover;
@@ -250,5 +254,43 @@
         width: 100%;
         text-align: center;
         font-size: 35px;
+    }
+
+    /* PROUDCT DETAIL */
+    .product-detail{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-detail .single-pro-img{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .product-detail .single-product-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .product-detail .single-product-details h4{
+        font-size: 20px;
+    }
+
+    .product-detail .single-product-details select{
+        width: 20%;
+        text-align: center;
+    }
+
+    .product-detail .single-product-details input{
+        margin-bottom: 10px;
+    }
+
+    .product-detail .single-product-details .product-desc{
+        display: none;
     }
 }
