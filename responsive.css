@@ -9,6 +9,7 @@
     .header #close{
         display: none;
     }
+
 }
 
 /* Ipad */
@@ -112,6 +113,11 @@
     footer .install img{
         width: 220px;
         height: 140px;
+    }
+
+    /* BLOG PAGE*/
+    .blog{
+        padding: 60px;
     }
 
 }
@@ -292,5 +298,29 @@
 
     .product-detail .single-product-details .product-desc{
         display: none;
+    }
+
+    /* BLOG PAGE */
+    .blog{
+        padding: 100px 20px 0 20px;
+    }
+
+    .blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        position: relative;
+        padding-bottom: 90px;
+    }
+
+    .blog .blog-box .blog-img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .blog .blog-details{
+        width: 100%;
     }
 }

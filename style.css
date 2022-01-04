@@ -599,7 +599,7 @@ footer .copyright{
 .page-header{
     display: flex;
     flex-direction: column;
-    background-image: url('images/bg-shop.jpg');
+    background-image: url('images/banner/b1.jpg');
     background-repeat: contain;
     height: 50vh;
     width: 100%;
@@ -611,13 +611,13 @@ footer .copyright{
 
 .page-header h2{
     font-size: 40px;
-    color: #EBE645;
+    color: #FFF;
     font-weight: 800;
 }
 
 .page-header p{
     font-size: 40px;
-    color: #8E0505;
+    color: #FFF;
     font-weight: 600;
 }
 
@@ -703,4 +703,84 @@ footer .copyright{
  
 .product-detail .single-product-details span{
     line-height: 25px;
+}
+
+/* BLOG PAGE*/
+.page-header.blog-header{
+    background-image: url('images/banner/b19.jpg');
+    width: 100%;
+}
+
+.blog{
+    padding: 150px 150px 0 150px;
+}
+
+.blog .blog-box{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+
+.blog .blog-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog .blog-details{
+    width: 50%;
+    margin-right: 40px;
+}
+
+.blog .blog-details h4{
+    font-size: 30px;
+}
+
+.blog .blog-details p{
+    font-size: 20px;
+}
+
+.blog .blog-details a{
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+    line-height: 20px;
+}
+
+.blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #000;
+    position:  absolute;
+    top: 12px;
+    right: -60px;
+}
+
+.blog .blog-details a:hover{
+    color: #088178;
+}
+
+.blog .blog-details a:hover::after{
+    background-color: #088178;
+}
+
+.blog .blog-box h1{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
 }
